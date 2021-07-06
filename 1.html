@@ -1,0 +1,315 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Amazeriffic!</title>
+    <link href='http://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'> 
+    
+    <style> 
+       html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+    background: #8cc3ca;
+    font-family: 'Droid Sans', sans-serif;
+  }
+  
+  header, main, footer {
+    min-width: 855px;
+  }
+  
+  header .container, main .container, footer .container {
+    max-width: 855px;
+    margin: auto;
+  }
+  
+  header {
+    padding: 25px 0 25px 0;
+    background: rgb(209, 229, 228);
+    overflow: auto;
+    border-bottom: 1px solid rgb(176, 197, 211);
+  }
+  
+  /* MAIN LOGO */
+  h1 {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: italic;
+    font-size: 3em;
+    color: rgb(32, 55, 66);
+    float: left;
+    width: 570px;
+  }
+  
+  /* FOOTER HEADINGS */
+  h5 {
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.25em;
+      margin-bottom: 20px;
+  }
+  
+  header nav {
+    float: right;
+    width: 285px;
+  }
+  
+  a {
+    color: rgb(28, 23, 51);
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  main {
+      background: #fff;
+      border-radius: 0 5px 5px 5px;;
+      padding: 40px;
+  }
+  
+  .tabs a span {
+      border-radius: 5px 5px 0 0;
+      display: inline-block;
+      width: 100px;
+      margin-right: 10px;
+      text-align: center;
+      background: rgb(191, 185, 209);
+      padding: 5px;
+  }
+  
+  .tabs a .active {
+      background: #eee;
+  }
+  
+  main .content {
+      padding: 30px 10px 30px 10px;
+      border-radius: 0 5px 5px 5px;
+      background: #eee;
+  }
+  
+  main .content li {
+      border-radius: 5px;
+      padding: 3px;
+      background: #eff;
+      margin: 0 0 10px 0;
+  }
+  
+  main .content button {
+    font-weight: bold;
+    padding: 0 3px 0 3px;
+    border-radius: 5px;
+    background: #ccc;
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 1.3em;
+  }
+  
+  
+  main .content p {
+      background: rgb(245, 245, 241);
+  }
+  
+  main .content input {
+      font-size: 1.5em;
+  }
+  
+  footer {
+      border-top: 1px solid #ddd;
+      padding: 40px 0 20px 0;
+  }
+  
+  footer .contact {
+    float: left;
+    width: 570px;    
+  }
+  
+  footer .contact p:nth-child(2) {
+    color: rgb(22, 15, 15);
+    font-style: italic;
+  }
+  
+  footer .sitemap {
+      float: right;
+      width: 285px;
+  }
+  
+  footer ul {
+      width: 230px;
+  }
+  
+  li {
+      list-style: none;
+  }
+  
+  footer .sitemap .left {
+      float: left;
+  }
+  
+  footer .sitemap .right {
+      float: right;
+  }
+
+  #button {
+    width: 6em;
+    border: 2px solid green;
+    background: #ffe;
+    border-radius: 5px;
+}
+    </style>
+    
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1>Amazeriffic!</h1>
+        <nav>
+          <a href="#">Sign Up!</a> |
+          <a href="#">Support</a>  |
+          <a id=button href="FAQ.html">FAQ</a>
+          
+        </nav>
+      </div>
+    </header>
+
+
+    <main>
+      <div class="container">
+        <div class="tabs">
+          <a href=""><span class="active">Newest</span></a><a href=""><span>Oldest</span></a><a href=""><span>Add</span></a>
+        </div>
+        <div class="content">
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container">
+        <div class="contact">
+          <h5>Contact Us</h5>
+          <p>Amazeriffic!</p>
+          <p>555 Fiftieth Street</p>
+          <p>Asheville, NC 28801</p>
+        </div>
+        <div class="sitemap">
+          <h5>Sitemap</h5>
+          <ul>
+            <div class="left">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">About Us</a></li>
+              <li><a href="#">Privacy</a></li>
+            </div>
+            <div class="right">
+              <li><a href="#">Support</a></li>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Careers</a></li>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    <script src="http://code.jquery.com/jquery-2.0.3.min.js"></script>
+    <script>
+      var main = function () {
+    var toDos = ["Get groceries",
+                 "Make up some new ToDos",
+                 "Prep for Monday's class",
+                 "Answer emails",
+                 "Go for a walk",
+                 "Finish assignments"];
+
+    $(".tabs a span").toArray().forEach(function (element) {
+        var $element = $(element);
+
+        // create a click handler for this element
+        $element.on("click", function () {
+            var $content,
+                $input,
+                $button,
+                i;
+
+            $(".tabs a span").removeClass("active");
+            $element.addClass("active");
+            $("main .content").empty();
+
+            if ($element.parent().is(":nth-child(1)")) {
+                // newest first, so we have to go through
+                // the array backwards
+                $content = $("<ul>");
+                for (i = toDos.length-1; i >= 0; i--) {
+                    $content.append($("<li>").text(toDos[i]));
+                }
+            } else if ($element.parent().is(":nth-child(2)")) {
+                // oldest first, so we go through the array forwards
+                $content = $("<ul>");
+                toDos.forEach(function (todo) {
+                    $content.append($("<li>").text(todo));
+                });
+            } else if ($element.parent().is(":nth-child(3)")) {
+                // input a new to-do
+                $input = $("<input>"),
+                $button = $("<button>").text("+");
+
+                $button.on("click", function () {
+                    if ($input.val() !== "") {
+                        toDos.push($input.val());
+                        $input.val("");
+                    }
+                });
+
+                $content = $("<div>").append($input).append($button);
+               /* Alternatively append() allows multiple arguments so the above
+                can be done with $content = $("<div>").append($input, $button); */
+            }
+
+            $("main .content").append($content);
+
+            return false;
+        });
+    });
+
+    $(".tabs a:first-child span").trigger("click");
+};
+
+$(document).ready(main);
+    </script>
+  </body>
+</html>
